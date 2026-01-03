@@ -1,0 +1,13 @@
+[
+  {
+    "event": {
+      "type": "form_submit",
+      "payload": {},
+      "timestamp": 123
+    },
+    "issues": [
+      "Formulario enviado sin datos"
+    ],
+    "timestamp": 1767445982014
+  }
+]
