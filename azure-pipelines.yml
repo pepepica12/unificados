@@ -1,5 +1,7 @@
 # Node.js with webpack
 # Build a Node.js project using the webpack CLI.
+# Node.js with Vue
+# Build a Node.js project that uses Vue.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
@@ -16,7 +18,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g webpack webpack-cli --save-dev
     npm install
-    npx webpack
-  displayName: 'npm install, run webpack'
+    npm run build
+  displayName: 'npm install and build'
