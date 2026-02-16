@@ -1,4 +1,4 @@
-xport default function analyze(event) {
+export default function analyze(event) {
     const issues = [];
 
     if (event.type === "form_submit") {
